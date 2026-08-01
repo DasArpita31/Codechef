@@ -1,0 +1,14 @@
+#include <iostream>
+using namespace std;
+
+int main() {
+    int X, Y;
+    cin >> X >> Y;
+
+    if (2 * (X + Y) >= 1000)
+        cout << "YES";
+    else
+        cout << "NO";
+
+    return 0;
+}
